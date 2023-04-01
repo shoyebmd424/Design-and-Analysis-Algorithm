@@ -35,7 +35,7 @@ public class ZAlgo {
         int ans[]=Zalgo(str, str.length());
         for(int i=0;i<str.length();i++){
             if(ans[i]==p.length()){
-                System.out.println(i-p.length()+" found");
+                System.out.println(i-p.length() +" found");
             }
         }
 
