@@ -47,7 +47,7 @@ static void printArr(int a[], int n)
 }  
 public static void main(String args[])   
 {  
-    int a[] = {45, 7, 20, 40, 25, 23, -2};  
+    int a[] = {45, 7, 20, 40, 25, 23};  
     int n = a.length;  
     System.out.print("Before sorting array elements are - \n");  
     printArr(a, n);  
