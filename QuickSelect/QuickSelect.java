@@ -6,7 +6,7 @@ public class QuickSelect {
 	// elements with less value to the left and
 	// high value to the right and also changes
 	// the pivot position to its respective position
-	// in the final array.
+	// in the final array.sss
 	public static int partition(int[] arr, int low,
 								int high)
 	{
