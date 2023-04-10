@@ -32,7 +32,9 @@ public class Kruskal {
 	// Starting point of program execution
 	public static void main(String[] args)
 	{
-		int V = 4;
+		String s="shoyeb";
+		System.out.println(s.indexOf('z'));
+				int V = 4;
 		List<Edge> graphEdges = new ArrayList<Edge>(
 			List.of(new Edge(0, 1, 10), new Edge(0, 2, 6),
 					new Edge(0, 3, 5), new Edge(1, 3, 15),
