@@ -39,3 +39,7 @@ for(int i = 1;i<=N-1;i++) {
     	
         }
 
+Time Complexity: O(N*E). We check E edges N times
+
+Space Complexity: O(N). Distance Array
+
