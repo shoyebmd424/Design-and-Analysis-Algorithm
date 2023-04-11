@@ -20,3 +20,9 @@ If we want to check for a negative cycle:
 After completing the steps(outside those three loops), we will run a loop and check if any cell having the row and column the same(i = j) contains a value less than 0.
 
 Note: If you wish to see the dry run of the above approach, you can watch the video attached to this article.
+
+
+<h4>Time Complexity</h4>: O(V3), as we have three nested loops each running for V times, where V = no. of vertices.
+
+<h4>Space Complexity</h4>: O(V2), where V = no. of vertices. This space complexity is due to storing the adjacency matrix of the given graph.
+
