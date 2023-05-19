@@ -90,3 +90,14 @@ Others:
 26) Binary Decision Diagram 
 27) Disjoint-set Data Structure 
 28) Bloom Filter 
+
+
+
+<h1> short comparator method</h1>
+PriorityQueue<int[]> pq = new PriorityQueue<>(
+            (a, b) -> {
+                double x = a[0] / (1.0 * a[1]);
+                double y = b[0] / (1.0 * b[1]);
+                return x > y? -1 : 1;
+            }
+        );
